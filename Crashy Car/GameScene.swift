@@ -344,68 +344,10 @@ class GameScene: SKScene/*, ADBannerViewDelegate*/ {
     }
     
     func convertNumber(_ num: CGFloat) -> Int {
-        if Int(num) == 29 {
-            return 1
-        } else if Int(num) == 28 {
-            return 2
-        } else if Int(num) == 27 {
-            return 3
-        } else if Int(num) == 26 {
-            return 4
-        } else if Int(num) == 25 {
-            return 5
-        } else if Int(num) == 24 {
-            return 6
-        } else if Int(num) == 23 {
-            return 7
-        } else if Int(num) == 22 {
-            return 8
-        } else if Int(num) == 21 {
-            return 9
-        } else if Int(num) == 20 {
-            return 10
-        } else if Int(num) == 19 {
-            return 11
-        } else if Int(num) == 18 {
-            return 12
-        } else if Int(num) == 17 {
-            return 13
-        } else if Int(num) == 16 {
-            return 14
-        } else if Int(num) == 15 {
-            return 15
-        } else if Int(num) == 14 {
-            return 16
-        } else if Int(num) == 13 {
-            return 17
-        } else if Int(num) == 12 {
-            return 18
-        } else if Int(num) == 11 {
-            return 19
-        } else if Int(num) == 10 {
-            return 20
-        } else if Int(num) == 9 {
-            return 21
-        } else if Int(num) == 8 {
-            return 22
-        } else if Int(num) == 7 {
-            return 23
-        } else if Int(num) == 6 {
-            return 24
-        } else if Int(num) == 5 {
-            return 25
-        } else if Int(num) == 4 {
-            return 26
-        } else if Int(num) == 3 {
-            return 27
-        } else if Int(num) == 2 {
-            return 28
-        } else if Int(num) == 1 {
-            return 29
-        } else if Int(num) == 0 {
+        if Int(num) == 30 {
             return 30
         } else {
-            return Int(num)
+            return 30-Int(num)
         }
     }
 }
